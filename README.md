@@ -23,7 +23,7 @@ python FbBot.py
 
 ## Release History
 ```
-- Version 0.0.1 [18-02-2020]
+- Version Beta [18-02-2020]
 ...
 ```
 
