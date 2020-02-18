@@ -12,7 +12,7 @@
 
 # How to get this tool
 ```
-FbBot clone https://FbBothub.com/byRo0t96/FbBot.git
+git clone https://FbBothub.com/byRo0t96/FbBot.git
 cd FbBot
 ```
 
