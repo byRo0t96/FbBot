@@ -17,8 +17,9 @@ cd FbBot
 ```
 
 # How to run
+for login: change userpass.py
 ```
-python FbBot.py
+python FbBot_login.py
 ```
 
 ## Release History
