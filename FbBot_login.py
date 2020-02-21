@@ -101,6 +101,7 @@ class FbBot_login:
 
         try:
           self.driver.find_element_by_xpath("//input[@name=\"approvals_code\"]")
+
         except:
           if x == "F":
             print("")
@@ -120,6 +121,31 @@ class FbBot_login:
               .click()
           sleep(2)
 
+        try:
+          self.driver.find_element_by_xpath("//input[@type=\"radio\"]")
+        except:
+          print("")
+          sleep(2)
+        else:
+          print("Don't Save Browser.")
+          self.driver.find_element_by_xpath('//input[@value="dont_save"]')\
+              .click()
+          self.driver.find_element_by_xpath('//input[@value="dont_save"]')\
+              .click()
+          self.driver.find_element_by_xpath('//button[@type="submit"]')\
+              .click()
+          sleep(2)
+
+
+        try:
+          self.driver.find_element_by_xpath("//input[@name=\"composer_photo[]\"]")
+        except:
+          print("login failed.")
+          sleep(2)
+        else:
+          print("login done.")
+          sleep(2)
+
 
 
 
@@ -129,7 +155,6 @@ pause()
 
 
 clear()
-
 
 
 
