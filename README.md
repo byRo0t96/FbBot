@@ -5,7 +5,7 @@
 
 
 ### Languages :
-* PYTHON
+* PYTHON3
 
 ### System :
 * Linux
@@ -17,14 +17,14 @@ cd FbBot
 ```
 
 # How to run
-for login: change userpass.py
 ```
-python FbBot_login.py
+python3 install.py
+python3 FbBot.py
 ```
 
 ## Release History
 ```
-- Version Beta [18-02-2020]
+- Version Beta [22-02-2020]
 ...
 ```
 
