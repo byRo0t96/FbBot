@@ -90,7 +90,6 @@ class login:
        
         try:
           self.driver.find_element_by_xpath("//input[@name=\"approvals_code\"]")
-
         except:
           if x == "F":
             print("")
@@ -134,3 +133,4 @@ class login:
         else:
           print("login done.")
           sleep(2)
+
